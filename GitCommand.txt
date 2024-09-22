@@ -1,0 +1,8 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/bigdatanotesbyarun/SparkRepository.git
+git push -u origin main
+
+Token-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

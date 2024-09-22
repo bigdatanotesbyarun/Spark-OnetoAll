@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>javax.jdo.option.ConnectionURL</name>
+		<!--<value>jdbc:derby://localhost:1527/metastore_db;create=true</value> for local metadata-->
+		 <value>jdbc:derby:;databaseName=metastore_db;create=true</value> 
+		<description>JDBC connect string for a JDBC metastore</description>
+	</property>
+</configuration>
